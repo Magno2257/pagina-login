@@ -1,0 +1,38 @@
+@media (max-width: 1280px) {
+    .formulario {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('../imagens/800px.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+.formulario {
+    width: 400px;
+    height: 500px;
+}
+}
+
+@media (max-width: 425px) {
+body {
+    background-image: url('../imagens/500px.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.formulario {
+    width: 300px;
+    height: 400px;
+}
+}
